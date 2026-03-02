@@ -238,6 +238,14 @@
     ],
     "agents": [
       {
+        "name": "aipcc-rfe-python-deps",
+        "description": "Analyzes Jira RFE tickets to identify new Python package dependencies and assess build complexity for the AIPCC team. Extracts package names from RFE descriptions, evaluates build requirements using integrated analysis skills, and provides actionable recommendations for wheel building strategies.",
+        "category": "aipcc",
+        "file_path": "helpers/agents/aipcc-rfe-python-deps.md",
+        "id": "aipcc-rfe-python-deps",
+        "tools": "Bash, Read, Grep, Glob, WebFetch, Skill"
+      },
+      {
         "name": "python-packaging-investigator",
         "description": "Investigates Python package repositories to analyze build systems, dependencies, and packaging complexity. Provides comprehensive guidance on how packages can be built from source using integrated analysis skills.",
         "category": "general",

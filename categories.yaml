@@ -2,6 +2,7 @@ AIPCC:
   - aipcc-commit-suggest
   - commit-message-assistant
   - aipcc-adr-assistant
+  - aipcc-rfe-python-deps
 
 vLLM:
   - vllm-compare-reqs
